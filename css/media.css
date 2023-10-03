@@ -313,7 +313,9 @@
   .conclusion {
     margin-bottom: 0;
   }
-
+.subcscribe {
+    text-align: start;
+}
   .list-media-link {
     margin-bottom: 0;
   }
