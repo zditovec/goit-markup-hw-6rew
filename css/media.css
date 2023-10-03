@@ -165,7 +165,9 @@
   .logo-social {
     display: flex;
   }
-
+.subcscribe {
+    text-align: start;
+}
   .footer-face {
     max-width: 264px;
     margin-right: 24px;
@@ -315,6 +317,7 @@
   .list-media-link {
     margin-bottom: 0;
   }
+  
    .subscribe-telegram {
        justify-content: end;
    }
