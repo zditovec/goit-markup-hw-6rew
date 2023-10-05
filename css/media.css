@@ -17,12 +17,12 @@
   .header-nav {
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 76px;
   }
   .page-nav {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
     position: relative;
   }
   .menu-btn {
@@ -30,9 +30,9 @@
   }
 
   .page-list {
-    color: var(--c-dark);
+    color: #2E2F42;
     font-weight: 500;
-    padding: 24px 0;
+    padding: 28px 0;
   }
 
   .page-list:hover {
@@ -64,9 +64,9 @@
   }
   .item-mail {
     font-size: 12px;
-    line-height: 1.17;
+    line-height: 24px;
     letter-spacing: 0.04em;
-    color: var(--c-text);
+    color: #434455;
     font-style: normal;
     text-decoration: none;
     transition-property: color;
@@ -86,7 +86,7 @@
   .effect-section {
       max-width: 768px;
       padding-top: 112px;
-      padding-bottom: 36px;
+      padding-bottom: 112px;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
           url(../images/Effective-tablet.jpg);
@@ -183,11 +183,12 @@
 
   .telegram-footer {
     display: flex;
+    flex-direction: row;
+    gap:24px
   }
 
   .input-information {
     width: 264px;
-    margin-right: 24px;
     margin-bottom: 0;
   }
 
@@ -225,16 +226,16 @@
 
   .item-mail {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.02px;
   }
   /* HEADER END */
 
   /* Effective Solutions */
   .effect-section {
-      max-width: 1158px;
+      max-width: 1440px;
       padding-top: 188px;
-      padding-bottom: 48px;
+      padding-bottom: 188px;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)),
           url(../images/effective-pc.jpg);
