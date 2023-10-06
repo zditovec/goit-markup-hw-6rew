@@ -698,7 +698,7 @@ margin-bottom: 16px;
   height: 100%;
   transform: translateX(100%);
 }
-.mobile-close {
+.mobile-close .is-open {
   transform: translateX(0);
 }
 .menu-close {
