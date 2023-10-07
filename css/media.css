@@ -31,7 +31,7 @@
   .page-list {
     color: #2E2F42;
     font-weight: 500;
-    padding: 28px 0;
+    padding: 24px 0;
   }
 .mail-list{
   line-height: 0;
@@ -69,7 +69,7 @@
   }
   .item-mail {
     font-size: 12px;
-    line-height: 24px;
+    line-height: 14px;
     letter-spacing: 0.04em;
     color: #434455;
     font-style: normal;
@@ -162,10 +162,6 @@
   /* Our Portfolio END */
   /* Footer */
 
-  .main-footer {
-    padding-right: 108px;
-    padding-left: 108px;
-  }
 
   .logo-social {
     display: flex;
@@ -176,6 +172,7 @@
   .footer-face {
     max-width: 264px;
     margin-right: 24px;
+    margin-bottom: 72px;
   }
 
   .logo-footer {
@@ -231,7 +228,7 @@
 
   .item-mail {
     font-size: 16px;
-    line-height: 14px;
+    line-height: 24px;
     letter-spacing: 0.02px;
   }
   /* HEADER END */
@@ -307,6 +304,7 @@
 
   .footer-face {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
  
@@ -343,5 +341,10 @@
 @media only screen and (min-width: 768px) {
   .mobile-close {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1157.98px){
+  .footer-info .container{
+    width: 584px;
   }
 }
