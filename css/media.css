@@ -16,10 +16,19 @@
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
 screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px) {
-  .banner {
-    background-image: url(../images/Effective-phone@2.jpg);
+  .effect-section {
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+     url(../images/Effective-phone@2.jpg);
   }
 }
+
+/* aaaaaaa */
+
+
+
+
+
 
 
 
@@ -122,6 +131,23 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin: 0 auto;
     background-size: cover;
   }
+    @media screen and (min-width: 768px) {
+      .effect-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+          url(../images/effective-tablet.jpg);
+      }
+    }
+  
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      .effect-section {
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url(../images/Effective-tablet@2.jpg);
+      }
+    }
 
   .effect-title {
     max-width: 496px;
@@ -270,6 +296,33 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     margin: 0 auto;
     background-size: cover;
   }
+@media screen and (min-width: 1158px) {
+  .effect-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/effective-pc.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .effect-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/Effective-pc@2.jpg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
   .effect-title {
     margin-bottom: 48px;
