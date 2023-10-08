@@ -354,7 +354,7 @@ body {
 /* FOOTER */
 .footer-info {
   background: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .logo-footer {
@@ -764,7 +764,6 @@ margin-bottom: 16px;
 }
 .mobile-list-media {
   display: flex;
-  justify-content: center;
   gap: 40px;
 }
 .link-info-icon {
