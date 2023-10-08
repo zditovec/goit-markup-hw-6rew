@@ -382,6 +382,7 @@ body {
       display: flex;
         flex-direction: column;
         gap: 16px;
+        margin-bottom: 72px;
 }
 .social-media-link {
   color: #fff;

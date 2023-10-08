@@ -175,7 +175,9 @@
     margin-right: 24px;
     margin-bottom: 72px;
   }
-
+.social-info {
+  margin-bottom: 0;
+}
   .logo-footer {
     justify-content: start;
   }
@@ -324,6 +326,7 @@
   .list-media-link {
     margin-bottom: 0;
   }
+  
   
    .subscribe-telegram {
        justify-content: end;
