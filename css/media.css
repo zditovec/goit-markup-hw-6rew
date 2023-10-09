@@ -47,7 +47,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .header-nav {
     display: flex;
     align-items: center;
-    gap: 76px;
+    gap: 120px;
   }
   .page-nav {
     display: flex;
@@ -211,6 +211,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
   .logo-social {
     display: flex;
+    margin-bottom: 72px;
   }
   .subcscribe {
     text-align: start;
@@ -218,7 +219,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .footer-face {
     max-width: 264px;
     margin-right: 24px;
-    margin-bottom: 72px;
+    margin-bottom: 0;
   }
   .social-info {
     margin-bottom: 0;
@@ -269,6 +270,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
   }
   /* HEADER */
 
+    .header-nav{
+      gap: 76px;
+    }
   .mail-nav {
     gap: 40px;
     flex-direction: row;

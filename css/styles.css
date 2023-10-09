@@ -70,8 +70,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo .accent {
   color: #2e2f42;
@@ -356,7 +356,9 @@ body {
   background: #2e2f42;
   padding: 96px 0;
 }
-
+.logo-social{
+  margin-bottom: 72px;
+}
 .logo-footer {
   display: flex;
   justify-content: center;
@@ -377,12 +379,13 @@ body {
   color: #f4f4fd;
   max-width: 100%;
 }
-
+.footer-face{
+  margin-bottom: 72px;
+}
 .social-info{
       display: flex;
         flex-direction: column;
         gap: 16px;
-        margin-bottom: 72px;
 }
 .social-media-link {
   color: #fff;
